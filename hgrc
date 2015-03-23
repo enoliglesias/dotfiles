@@ -1,0 +1,47 @@
+[extensions]
+
+color=
+
+fetch=
+
+hgk=
+
+graphlog=
+
+rebase=
+
+progress=
+
+shelve=
+
+purge=
+
+hgext.bookmarks=
+
+hggit=
+
+strip=
+
+[ui]
+
+username = 
+
+ssh = ssh -C
+
+
+
+
+[tortoisehg]
+editor = ~/sublime2/sublime_text
+
+
+[diff]
+ignorews = True
+ignorewsamount = True
+ignoreblanklines = True
+
+[extensions]
+hgext.extdiff=
+
+[extdiff]
+cmd.kdiff = kdiff3
