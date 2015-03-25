@@ -86,26 +86,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias runqueue='bundle exec rake resque:work QUEUE=* VERBOSE=1'
-alias runscheduler='bundle exec rake resque:scheduler'
-alias specallin='bundle exec rake parallel:spec[3]'
-alias specall="brake parallel:spec['lib|models|acceptance']"
-alias specintegration="brake parallel:spec['integration']"
-alias s='ruby script/server'
-alias c='ruby script/console'
-alias migration='ruby script/generate migration'
-alias brake='bundle exec rake'
-alias bspec='bundle exec spec'
-alias bexec='bundle exec'
-alias bpspec='bundle exec rake parallel:spec[$((`nproc`-1))]'
-alias pspec='bpspec'
-alias rree='rvm use ree'
-alias r18='rvm use ruby18'
-alias gopre='ssh premail_ftp'
-alias gopro='ssh mail_ftp'
-alias migrateall='bundle exec rake db:migrate parallel:migrate'
-alias goresque='bundle exec resque-web -F -L -p 5678 config/resque_config.rb'
-alias sshadd='ssh-add ~/.ssh/id_rsa'
 
 PATH=$PATH:~/arcanist/bin
 export PATH
